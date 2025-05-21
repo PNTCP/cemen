@@ -33,7 +33,7 @@
         }
         .menu-bar-item a:active {
             color: red;
-            test
+            color: white;
         }
      </style>
 
