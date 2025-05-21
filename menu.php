@@ -33,7 +33,8 @@
         }
         .menu-bar-item a:active {
             color: red;            
-        }   
+        }   color: white;
+        }
      </style>
 
      <div class="menu-bar" style="font-family: Kanit;">
