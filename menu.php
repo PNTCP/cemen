@@ -29,12 +29,11 @@
             transition: transform 0.3s ease, color 0.3s ease;
         }
         .menu-bar-item a:hover {
-            color: blue;
+            color: blue;             
         }
         .menu-bar-item a:active {
-            color: red;
-            color: white;
-        }
+            color: red;            
+        }   
      </style>
 
      <div class="menu-bar" style="font-family: Kanit;">
