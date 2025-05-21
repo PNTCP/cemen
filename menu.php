@@ -38,7 +38,7 @@
 
      <div class="menu-bar" style="font-family: Kanit;">
         <div class="menu-bar-item"><a href="index.php">หน้าแรก</a></div>
-        <div class="menu-bar-item"><a href="#">คอร์สอบรม</a></div>
+        <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
         <div class="menu-bar-item"><a href="#">คอนกรีตพิมพ์ลาย</a></div>
         <div class="menu-bar-item"><a href="#">คอนกรีตลอกลาย</a></div>  
         <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
