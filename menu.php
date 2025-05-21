@@ -33,7 +33,6 @@
         }
         .menu-bar-item a:active {
             color: red;            
-        }   color: white;
         }
      </style>
 
