@@ -335,6 +335,60 @@
             </div>
     </div>    
 
+
+        <!-- button scrool mouse * 200 kub bro ready with animation java script -->
+<button onclick="scrollToTop()" id="scrollBtn" title="เลื่อนขึ้นบนสุด">⬆️</button>
+
+<script>
+    const scrollBtn = document.getElementById("scrollBtn");
+
+    window.onscroll = function () {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            scrollBtn.classList.add("show");
+        } else {
+            scrollBtn.classList.remove("show");
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+</script>
+
+<style>
+    #scrollBtn {
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        z-index: 1000;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        background-color: #007BFF;
+        color: white;
+        cursor: pointer;
+        padding: 12px 16px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(50px);
+        transition: all 0.4s ease;
+    }
+
+    #scrollBtn.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    #scrollBtn:hover {
+        background-color: #0056b3;
+    }
+</style>
     
 </body>
 </html>
