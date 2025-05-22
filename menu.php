@@ -7,16 +7,35 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit&display=swap">
 </head>
 <body style="margin-left: 17%; margin-right: 17%; margin-top: 0px;">
-    <img src="https://static.wixstatic.com/media/51972b_44796e442e154b6b86100bcaa1177f10~mv2.jpg/v1/fill/w_981,h_371,al_c,q_85,enc_avif,quality_auto/พื้นคอนกรีตพิมพ์ลาย-Cover.jpg"
-     alt="" >
-    
-     <style>
+    <div style="width:100%; max-width:981px; margin:0 auto;">
+        <img class="main-menu" src="https://static.wixstatic.com/media/51972b_44796e442e154b6b86100bcaa1177f10~mv2.jpg/v1/fill/w_981,h_371,al_c,q_85,enc_avif,quality_auto/พื้นคอนกรีตพิมพ์ลาย-Cover.jpg" alt="" >
+
+        <button class="main-hamburger" id="mainHamburgerBtn" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <style>
+        .main-menu {
+            width: 100%;
+            max-width: 981px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
         .menu-bar {
             display: flex;
             justify-content: space-around;
             background-color:rgb(32, 32, 32);
             padding: 10px 0;
-            
+            width: 100%;
+            max-width: 981px;
+            margin-left: auto;
+            margin-right: auto;
+            transition: none;
         }
         .menu-bar-item {
             /* flex: 1; */
@@ -29,25 +48,223 @@
             transition: transform 0.3s ease, color 0.3s ease;
         }
         .menu-bar-item a:hover {
-            color: blue;             
+            color: blue;
         }
         .menu-bar-item a:active {
-            color: red;            
+            color: red;
         }
-     </style>
-
-     <div class="menu-bar" style="font-family: Kanit;">
+        /* เรียงชั้น */
+        .hamburger {
+            display: none;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1002;
+            width: 40px;
+            height: 40px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hamburger span {
+            display: block;
+            width: 30px;
+            height: 4px;
+            margin: 5px 0;
+            background: #222;
+            border-radius: 2px;
+            transition: 0.4s;
+        }
+        /* เอฟเฟค */
+        .menu-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0,0,0,0.3);
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .menu-overlay.active {
+            display: block;
+            opacity: 1;
+        }
+        /* แบบทรศ. */
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            right: -300px;
+            width: 260px;
+            height: 100vh;
+            background: rgb(32,32,32);
+            z-index: 1001;
+            box-shadow: -2px 0 8px rgba(0,0,0,0.2);
+            transition: right 0.4s cubic-bezier(0.77,0.2,0.05,1), opacity 0.3s;
+            opacity: 0;
+            padding-bottom: 60px;
+        }
+        .mobile-menu.active {
+            right: 0;
+            opacity: 1;
+            display: flex;
+        }
+        .mobile-menu .menu-bar-item {
+            width: 100%;
+            padding: 18px 0;
+            text-align: center;
+        }
+        .mobile-menu .menu-bar-item a {
+            color: white;
+            font-size: 22px;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+        }
+        /* Hamburger styles for mobile, directly below and left-aligned with main-menu */
+        .main-hamburger {
+            display: none;
+            margin-top: 12px;
+            margin-left: 0;
+            margin-right: auto;
+            width: 48px;
+            height: 48px;
+            background: rgba(32,32,32,0.95);
+            border: none;
+            /* Remove border-radius for rectangle */
+            border-radius: 0;
+            cursor: pointer;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            position: static;
+        }
+        .main-hamburger span {
+            display: block;
+            width: 28px;
+            height: 4px;
+            margin: 4px auto;
+            background: #fff;
+            border-radius: 2px;
+            transition: 0.4s;
+        }
+        @media (max-width: 768px) {
+            .main-hamburger {
+                display: flex;
+            }
+            .menu-bar {
+                display: none;
+            }
+            .menu-icon, .menu-icon-buy {
+                display: none !important;
+            }
+        }
+        /* Slide-in menu-bar for mobile */
+        .slide-menu-bar {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            right: -300px;
+            width: 260px;
+            height: 100vh;
+            background: rgb(32,32,32);
+            z-index: 1001;
+            box-shadow: -2px 0 8px rgba(0,0,0,0.2);
+            transition: right 0.4s cubic-bezier(0.77,0.2,0.05,1), opacity 0.3s;
+            opacity: 0;
+            padding-bottom: 60px;
+        }
+        .slide-menu-bar.active {
+            right: 0;
+            opacity: 1;
+            display: flex;
+        }
+        .slide-menu-bar .menu-bar-item {
+            width: 100%;
+            padding: 18px 0;
+            text-align: center;
+        }
+        .slide-menu-bar .menu-bar-item a {
+            color: white;
+            font-size: 22px;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+        }
+    </style>
+    <!-- Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <!-- Desktop Menu Bar -->
+    <div class="menu-bar" style="font-family: Kanit;">
         <div class="menu-bar-item"><a href="index.php">หน้าแรก</a></div>
         <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
         <div class="menu-bar-item"><a href="#">คอนกรีตพิมพ์ลาย</a></div>
-        <div class="menu-bar-item"><a href="#">คอนกรีตลอกลาย</a></div>  
+        <div class="menu-bar-item"><a href="#">คอนกรีตลอกลาย</a></div>
         <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
-        <div class="menu-bar-item"><a href="#">ถามตอบ</a></div> 
-        <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>  
-        <div class="menu-bar-item"><a href="#">ติดต่อเรา</a></div>  
-     </div>
-
-
+        <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
+        <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
+        <div class="menu-bar-item"><a href="#">ติดต่อเรา</a></div>
+    </div>
+    <!-- Mobile  Menu -->
+    <nav class="slide-menu-bar" id="slideMenuBar" style="font-family: Kanit;">
+        <div class="menu-bar-item"><a href="index.php">หน้าแรก</a></div>
+        <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
+        <div class="menu-bar-item"><a href="#">คอนกรีตพิมพ์ลาย</a></div>
+        <div class="menu-bar-item"><a href="#">คอนกรีตลอกลาย</a></div>
+        <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
+        <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
+        <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
+        <div class="menu-bar-item"><a href="#">ติดต่อเรา</a></div>
+    </nav>
+    <script>
+        const mainHamburgerBtn = document.getElementById('mainHamburgerBtn');
+        const slideMenuBar = document.getElementById('slideMenuBar');
+        const menuOverlay = document.getElementById('menuOverlay');
+        let menuOpen = false;
+        function openSlideMenu() {
+            slideMenuBar.classList.add('active');
+            menuOverlay.classList.add('active');
+            menuOpen = true;
+        }
+        function closeSlideMenu() {
+            slideMenuBar.classList.remove('active');
+            menuOverlay.classList.remove('active');
+            menuOpen = false;
+        }
+        mainHamburgerBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            if (menuOpen) {
+                closeSlideMenu();
+            } else {
+                openSlideMenu();
+            }
+        });
+        menuOverlay.addEventListener('click', closeSlideMenu);
+        document.addEventListener('mousedown', function(e) {
+            if (menuOpen && !slideMenuBar.contains(e.target) && e.target !== mainHamburgerBtn) {
+                closeSlideMenu();
+            }
+        });
+        document.addEventListener('touchstart', function(e) {
+            if (menuOpen && !slideMenuBar.contains(e.target) && e.target !== mainHamburgerBtn) {
+                closeSlideMenu();
+            }
+        });
+    </script>
+    
         <style>
             .menu-icon {
                 display: center;
