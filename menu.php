@@ -7,17 +7,30 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit&display=swap">
 </head>
 <body style="margin-left: 17%; margin-right: 17%; margin-top: 0px;">
-    <div style="width:100%; max-width:981px; margin:0 auto;">
-        <img class="main-menu" src="https://static.wixstatic.com/media/51972b_44796e442e154b6b86100bcaa1177f10~mv2.jpg/v1/fill/w_981,h_371,al_c,q_85,enc_avif,quality_auto/พื้นคอนกรีตพิมพ์ลาย-Cover.jpg" alt="" >
+   <div style="width:100%; max-width:981px; margin:0 auto;">
+    <img class="main-menu" src="https://static.wixstatic.com/media/51972b_44796e442e154b6b86100bcaa1177f10~mv2.jpg/v1/fill/w_981,h_371,al_c,q_85,enc_avif,quality_auto/พื้นคอนกรีตพิมพ์ลาย-Cover.jpg" alt="" >
 
+    <!-- ไอคอนไลน์กับสั่งซื้อ -->
+    <div class="mobile-header-row">
         <button class="main-hamburger" id="mainHamburgerBtn" aria-label="Open menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
+        <a href="#" class="mobile-header-icon" title="สั่งซื้อออนไลน์">
+            <img src="https://static.wixstatic.com/media/51972b_e40282317e6b42ee83ceb2135f39f4d2~mv2.png/v1/fill/w_133,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/สั่งซื้อออนไลน์.png" alt="Order Online">
+        </a>
+        <a href="https://page.line.me/ytr6210q?oat_content=url&openQrModal=true" class="mobile-header-icon" target="_blank" rel="noopener" title="LINE">
+            <img src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png" alt="คลิ๊กที่นี่" style="background:#fff;border-radius:6px;">
+        </a>
     </div>
+</div>
     <div class="menu-overlay" id="menuOverlay"></div>
+    
     <style>
+        .mobile-header-icon {
+            display: none;
+        }
         .main-menu {
             width: 100%;
             max-width: 981px;
@@ -95,7 +108,7 @@
             display: block;
             opacity: 1;
         }
-        /* แบบทรศ. */
+        /* Menu แบบทรศ. */
         .mobile-menu {
             display: none;
             flex-direction: column;
@@ -157,7 +170,7 @@
             background: #fff;
             border-radius: 2px;
             transition: 0.4s;
-        }
+        } /* for MB */
         @media (max-width: 768px) {
             .main-hamburger {
                 display: flex;
@@ -167,6 +180,57 @@
             }
             .menu-icon, .menu-icon-buy {
                 display: none !important;
+            }
+            body {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                padding: 0 !important;
+            }
+            .main-menu {
+                width: 100vw !important;
+                max-width: 100vw !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                display: block;
+            }
+            /* Optional: Remove container margin for the image's parent */
+            body > div[style*="max-width:981px"] {
+                margin: 0 !important;
+                width: 100vw !important;
+                max-width: 100vw !important;
+                padding: 0 !important;
+            }
+            .mobile-header-row {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 12px;
+                margin-top: 12px;
+                margin-left: 0;
+            }
+            .mobile-header-icon {
+                display: flex;
+                align-items: center;
+            }
+            .mobile-header-icon img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                max-height: 40px; /* ควบคุมความสูงสูงสุด */
+            }
+            .main-hamburger {
+                display: flex;
+                margin: 0;
+            }
+            .mobile-header-icon img {
+                max-height: 40px;
+                height: 40px;
+                width: auto;
+                display: block;
+            }
+            .mobile-header-icon {
+                display: flex;
+                align-items: center;
             }
         }
         /* Slide-in menu-bar for mobile */
