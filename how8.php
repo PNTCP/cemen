@@ -240,7 +240,24 @@
 
         .prev { left: 0; }
         .next { right: 0; }
-
+    /* For MB */
+        @media (max-width: 768px) {
+            .border-main {
+                margin: 10px;
+                padding: 10px;
+            }
+            .border-main img {
+                width: 100%;
+                height: auto;
+            }
+            .thumbnail {
+                width: 100%;
+            }
+            .mySlides img {
+                width: 100%;
+                height: auto;
+            }
+        }
     </style>
 </body>
 </html>

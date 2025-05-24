@@ -431,18 +431,18 @@ function changeSlide(step) {
 <div class="group-items">
     <div class="items">
         <img src="https://static.wixstatic.com/media/51972b_0133ade712fe4ae390eb1dd136246282~mv2.png/v1/fill/w_408,h_234,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ศูนย์รวมวัสดุอุปกรณ์งานตกแต่ง.png" alt="">
-        <p style="color: #B30000;">ศูนย์รวมวัสดุอุปกรณ์งานตกแต่งคอนกรีตแนวใหม่ครบวงจร</p>
-        <p style="margin-top: -15px;">(Tools & Equipment)</p>
+        <p  style="color: #B30000;">ศูนย์รวมวัสดุอุปกรณ์งานตกแต่งคอนกรีตแนวใหม่ครบวงจร</p>
+        <p  style="margin-top: -15px;">(Tools & Equipment)</p>
     </div>
     <div class="items">
         <img src="https://static.wixstatic.com/media/51972b_8e451a2048164e0e84fedae951a00cf0~mv2.png/v1/fill/w_408,h_234,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/บริการงานรับเหมา.png" alt="">
-        <p style="color: #B30000;">บริการงานรับเหมา</p>
-        <p style="margin-top: -15px;">(Contracting Services)</p>
+        <p  style="color: #B30000;">บริการงานรับเหมา</p>
+        <p  style="margin-top: -15px;">(Contracting Services)</p>
     </div>
     <div class="items">
         <img src="https://static.wixstatic.com/media/51972b_78d90ce7cebb4c4da6c04dfd9a391aca~mv2.png/v1/fill/w_408,h_234,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ผู้ฝึกสอนสร้างอาชีพ.png" alt="">
-        <p style="color: #B30000;">ศูนย์รวมวัสดุอุปกรณ์งานตกแต่งคอนกรีตแนวใหม่ครบวงจร</p>
-        <p style="margin-top: -15px;">(Training Class)</p>
+        <p  style="color: #B30000;">ศูนย์รวมวัสดุอุปกรณ์งานตกแต่งคอนกรีตแนวใหม่ครบวงจร</p>
+        <p  style="margin-top: -15px;">(Training Class)</p>
     </div>
 </div>
 <div class="num1">
@@ -590,8 +590,8 @@ function changeSlide(step) {
     }
     .content-wrapper {
         flex-direction: column;
-        align-items: stretch;
-        margin: 10px 0;
+        align-items: center;
+        margin: 10px auto;
         padding: 0 5px;
         max-width: 100vw;
     }
@@ -647,8 +647,26 @@ function changeSlide(step) {
         margin: 10px 0;
     }
     .items {
+        display: flex;
+        align-items: center;
         width: 100%;
         margin-bottom: 10px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 8px 0;
+        text-align: left;
+    }
+    .items img {
+        width: 300px;
+        height: auto;
+        border-radius: 8px;
+        margin-right: 12px;
+        flex-shrink: 0;
+    }
+    .items p {
+        margin: 0;
+        font-size: 20px;
+        text-align: left;
     }
     .num1 img {
         width: 100vw;

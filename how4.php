@@ -263,6 +263,25 @@
 
         .prev { left: 0; }
         .next { right: 0; }
+    /*for MB*/
+    @media (max-width: 768px) {
+        .border-main {
+            margin: 20px;
+        }
+        .border-main img {
+            width: 100%;
+            height: auto;
+        }
+        .border-img img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+        }
+    }
 
     </style>
 </body>

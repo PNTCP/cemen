@@ -112,8 +112,8 @@
         </div>
         <div class="contact">
             <p>ต้องการสอบถามเกี่ยวกับงานคอนกรีตพิมพ์ลาย ปรึกษา พูดคุยกับช่างหมู สามารถติดต่ได้ช่องทาง</p>
-            <p>ไลน์ไอดี : <a href="https://lin.ee/SKcx5b8">@concretedecor</a></p>
-            <p>โทร : 093-254-6566</p>
+            <p>ไลน์ไอดี : <a href="https://lin.ee/SKcx5b8">@Dr.Vorapong Noom</a></p>
+            <p>โทร : 096-893-5544</p>
         </div>
     </div>
 
@@ -301,7 +301,25 @@
 
         .prev { left: 0; }
         .next { right: 0; }
-
+    /*for MB*/
+        @media (max-width: 768px) {
+            .border-main {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .border-main img {
+                width: 100%;
+                height: auto;
+            }
+            .thumbnail {
+                width: 100%;
+            }
+            .mySlides img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        
     </style>
 </body>
 </html>

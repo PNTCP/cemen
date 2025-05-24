@@ -316,7 +316,23 @@
 
         .prev { left: 0; }
         .next { right: 0; }
-
+    /* For MB */
+        @media (max-width: 768px) {
+            .border-main {
+                margin: 10px;
+                padding: 10px;
+            }
+            .border-main img {
+                width: 100%;
+                height: auto;
+            }
+            .step-gallery {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+            .step-item img {
+                height: 150px; /* ปรับความสูงให้เหมาะสมกับหน้าจอเล็ก */
+            }
+        }
     </style>
 </body>
 </html>

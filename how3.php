@@ -112,9 +112,9 @@
 
         <div style="margin-left: 50px; margin-right: 20px;text-align: center;">
             <p>หากสนใจปรึกษาการเลือกลาย แบบพิมพ์ ลายคอนกรีต ที่ให้สวยงามเข้ากับตัวบ้าน ให้เราทีมงาน คอนคอนกรีต เดคคอร์ ไทยแลนด์ ช่วยเลือกให้ได้สอบถามได้ฟรี พร้อมช่วยเหลืออย่างเต็มที่</p>
-            <p>ติดต่อสอบถาม : 063-932-2993</p>
+            <p>ติดต่อสอบถาม : 096-893-5544</p>
             <div class="contact">
-                <p>แอดไลน์ : <a href="https://lin.ee/SKcx5b8">https://lin.ee/SKcx5b8</a></p>
+                <p>แอดไลน์ : <a href="https://lin.ee/SKcx5b8">Dr.Vorapong Noom</a></p>
             </div>
         </div>
     </div>
@@ -311,6 +311,26 @@
 
         .prev { left: 0; }
         .next { right: 0; }
+    /*for MB*/
+        @media (max-width: 768px) {
+            .border-main {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .border-main img {
+                width: 100%;
+                height: auto;
+            }
+            .thumbnail {
+                width: 100%;
+            }
+            .modal-content {
+                max-width: 90%;
+            }
+            .mySlides img {
+                height: auto;
+            }
+        }
 
     </style>
 </body>

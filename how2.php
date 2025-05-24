@@ -291,6 +291,40 @@
         .prev { left: 0; }
         .next { right: 0; }
 
+
+    /*for MB*/
+    @media (max-width: 768px) {
+        .border-main {
+            margin: 10px;
+            padding: 10px;
+        }
+        .border-main img {
+            width: 100%;
+            height: auto;
+        }
+        .step-gallery {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            margin: 20px;
+        }
+        .step-item img {
+            height: 150px; 
+        }
+        .modal-content img {
+            height: auto; 
+        }
+}
+
+        .modal-content {
+            flex-direction: column; 
+        }
+        .mySlides img {
+            height: auto; 
+        }
+    }
     </style>
+
+
+
+</style>
 </body>
 </html>
