@@ -564,7 +564,131 @@ function changeSlide(step) {
     </div>
 
 <style>
-
+/* โทรศัพท์โหมด */
+@media (max-width: 768px) {
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .border-main {
+        font-size: 20px;
+        padding: 10px 5px;
+    }
+    .slider-container {
+        max-width: 100vw;
+        margin: 20px 0 10px 0;
+        padding: 0;
+    }
+    .slider-image {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        margin: 0 !important;
+        border-radius: 10px;
+    }
+    .slider-buttons {
+        top: 45%;
+    }
+    .content-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+        margin: 10px 0;
+        padding: 0 5px;
+        max-width: 100vw;
+    }
+    .left-image,
+    .right-features {
+        max-width: 100vw;
+        min-width: 0;
+        width: 100%;
+    }
+    .left-image img,
+    .right-features img {
+        width: 100%;
+        max-width: 100vw;
+        border-radius: 10px;
+    }
+    .feature img {
+        width: 100%;
+        max-width: 120px;
+        margin: 0 auto;
+    }
+    .three-image,
+    .four-image,
+    .image-cemen1 {
+        margin: 10px 0;
+    }
+    .three-image img,
+    .four-image img,
+    .image-cemen1 img {
+        width: 100vw;
+        max-width: 100vw;
+        border-radius: 10px;
+    }
+    .category-title {
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .category-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        max-width: 100vw;
+        padding: 0 5px;
+    }
+    .category-grid img {
+        max-width: 90px;
+    }
+    .category-item p {
+        font-size: 13px;
+    }
+    .group-items {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+    }
+    .items {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .num1 img {
+        width: 100vw;
+        max-width: 100vw;
+        border-radius: 10px;
+    }
+    .cemen-video {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .video-container {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+    }
+    .video-container iframe {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        height: 220px !important;
+    }
+    .guilde-container {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .card-guilde {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .card img {
+        border-radius: 10px;
+    }
+    .image-cemen1 img {
+        border-radius: 10px;
+    }
+}
 </style>
     
 </body>
