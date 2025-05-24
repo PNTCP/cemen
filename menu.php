@@ -26,7 +26,28 @@
     </div>
 </div>
     <div class="menu-overlay" id="menuOverlay"></div>
-    
+
+<!-- ชุดปุ่มเมนูล่างจอของทรศ -->
+ <nav class="mobile-bottom-nav">
+    <a href="#" class="mobile-bottom-item" title="ติดต่อเรา">
+        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="ติดต่อเรา" class="mobile-bottom-icon">
+        <span class="mobile-bottom-label">ติดต่อเรา</span>
+    </a>
+    <a href="https://page.line.me/ytr6210q?oat_content=url&openQrModal=true" class="mobile-bottom-item" target="_blank" rel="noopener" title="LINE">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111498.png" alt="LINE" class="mobile-bottom-icon">
+        <span class="mobile-bottom-label">LINE</span>
+    </a>
+    <a href="https://www.youtube.com/c/CONCRETEDECORTHAILAND" class="mobile-bottom-item" target="_blank" rel="noopener" title="YouTube">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" class="mobile-bottom-icon">
+        <span class="mobile-bottom-label">YouTube</span>
+    </a>
+    <a href="#" class="mobile-bottom-item" title="ที่ตั้งร้าน">
+        <img src="https://cdn-icons-png.flaticon.com/512/1946/1946436.png" alt="ที่ตั้งร้าน" class="mobile-bottom-icon">
+        <span class="mobile-bottom-label">ที่ตั้งร้าน</span>
+    </a>
+</nav>
+
+
     <style>
         .mobile-header-icon {
             display: none;
@@ -170,7 +191,11 @@
             background: #fff;
             border-radius: 2px;
             transition: 0.4s;
-        } /* for MB */
+        }
+        .mobile-bottom-nav {
+            display: none;
+        }
+        /* for MB */
         @media (max-width: 768px) {
             .main-hamburger {
                 display: flex;
@@ -232,42 +257,92 @@
                 display: flex;
                 align-items: center;
             }
-        }
-        /* Slide-in menu-bar for mobile */
-        .slide-menu-bar {
-            display: none;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: fixed;
-            top: 0;
-            right: -300px;
-            width: 260px;
-            height: 100vh;
-            background: rgb(32,32,32);
-            z-index: 1001;
-            box-shadow: -2px 0 8px rgba(0,0,0,0.2);
-            transition: right 0.4s cubic-bezier(0.77,0.2,0.05,1), opacity 0.3s;
-            opacity: 0;
-            padding-bottom: 60px;
-        }
-        .slide-menu-bar.active {
-            right: 0;
-            opacity: 1;
-            display: flex;
-        }
-        .slide-menu-bar .menu-bar-item {
-            width: 100%;
-            padding: 18px 0;
-            text-align: center;
-        }
-        .slide-menu-bar .menu-bar-item a {
-            color: white;
-            font-size: 22px;
-            text-decoration: none;
-            display: block;
-            width: 100%;
-        }
+
+            /* ปุ่มเมนูด้านล่าง */
+            .mobile-bottom-nav {
+                display: flex;
+                position: fixed;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100vw;
+                background: #fff;
+                border-top: 1px solid #e0e0e0;
+                box-shadow: 0 -2px 10px rgba(0,0,0,0.07);
+                z-index: 1200;
+                justify-content: space-around;
+                align-items: center;
+                height: 56px;
+            }
+            }
+            .mobile-bottom-item {
+                flex: 1 1 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                color: #222;
+                font-family: Kanit, sans-serif;
+                font-size: 12px;
+                padding: 0;
+                transition: background 0.2s;
+                min-width: 0;
+            }
+            .mobile-bottom-item:active {
+                background: #f2f2f2;
+            }
+            .mobile-bottom-icon {
+                width: 24px;
+                height: 24px;
+                margin-bottom: 2px;
+                display: block;
+            }
+            .mobile-bottom-label {
+                font-size: 11px;
+                line-height: 1.1;
+                text-align: center;
+                margin-top: 1px;
+                color: #222;
+                font-family: Kanit, sans-serif;
+                display: block;
+            }
+
+            /* Slide-in menu-bar for mobile */
+            .slide-menu-bar {
+                display: none;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: fixed;
+                top: 0;
+                right: -300px;
+                width: 260px;
+                height: 100vh;
+                background: rgb(32,32,32);
+                z-index: 1001;
+                box-shadow: -2px 0 8px rgba(0,0,0,0.2);
+                transition: right 0.4s cubic-bezier(0.77,0.2,0.05,1), opacity 0.3s;
+                opacity: 0;
+                padding-bottom: 60px;
+            }
+            .slide-menu-bar.active {
+                right: 0;
+                opacity: 1;
+                display: flex;
+            }
+            .slide-menu-bar .menu-bar-item {
+                width: 100%;
+                padding: 18px 0;
+                text-align: center;
+            }
+            .slide-menu-bar .menu-bar-item a {
+                color: white;
+                font-size: 22px;
+                text-decoration: none;
+                display: block;
+                width: 100%;
+            }
     </style>
     <!-- Overlay -->
     <div class="menu-overlay" id="menuOverlay"></div>
