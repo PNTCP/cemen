@@ -17,10 +17,10 @@
             <span></span>
             <span></span>
         </button>
-        <a href="#" class="mobile-header-icon" title="สั่งซื้อออนไลน์">
+        <a href="https://line.me/ti/p/eAmTWa8mkc" class="mobile-header-icon" title="สั่งซื้อออนไลน์">
             <img src="https://static.wixstatic.com/media/51972b_e40282317e6b42ee83ceb2135f39f4d2~mv2.png/v1/fill/w_133,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/สั่งซื้อออนไลน์.png" alt="Order Online">
         </a>
-        <a href="https://page.line.me/ytr6210q?oat_content=url&openQrModal=true" class="mobile-header-icon" target="_blank" rel="noopener" title="LINE">
+        <a href="https://line.me/ti/p/eAmTWa8mkc" class="mobile-header-icon" target="_blank" rel="noopener" title="LINE">
             <img src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png" alt="คลิ๊กที่นี่" style="background:#fff;border-radius:6px;">
         </a>
     </div>
@@ -33,7 +33,7 @@
         <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="ติดต่อเรา" class="mobile-bottom-icon">
         <span class="mobile-bottom-label">ติดต่อเรา</span>
     </a>
-    <a href="https://page.line.me/ytr6210q?oat_content=url&openQrModal=true" class="mobile-bottom-item" target="_blank" rel="noopener" title="LINE">
+    <a href="https://line.me/ti/p/eAmTWa8mkc" class="mobile-bottom-item" target="_blank" rel="noopener" title="LINE">
         <img src="https://cdn-icons-png.flaticon.com/512/2111/2111498.png" alt="LINE" class="mobile-bottom-icon">
         <span class="mobile-bottom-label">LINE</span>
     </a>
@@ -350,11 +350,11 @@
     <div class="menu-bar" style="font-family: Kanit;">
         <div class="menu-bar-item"><a href="index.php">หน้าแรก</a></div>
         <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
-        <div class="menu-bar-item"><a href="#">คอนกรีตพิมพ์ลาย</a></div>
-        <div class="menu-bar-item"><a href="#">คอนกรีตลอกลาย</a></div>
+        <div class="menu-bar-item"><a href="how1.php">คอนกรีตพิมพ์ลาย</a></div>
+        <div class="menu-bar-item"><a href="how2.php">คอนกรีตลอกลาย</a></div>
         <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
-        <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
+        <div class="menu-bar-item"><a href="how6.php">คลังความรู้</a></div>
         <div class="menu-bar-item"><a href="#">ติดต่อเรา</a></div>
     </div>
     <!-- Mobile  Menu -->
@@ -366,7 +366,7 @@
         <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
         <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
-        <div class="menu-bar-item"><a href="#">ติดต่อเรา</a></div>
+        <div class="menu-bar-item"><a href="Contact.php">ติดต่อเรา</a></div>
     </nav>
     <script>
         const mainHamburgerBtn = document.getElementById('mainHamburgerBtn');
@@ -466,11 +466,11 @@
     </div>
 
     <div class="menu-icon-buy">
-            <a href="" style="padding-right: 10px; padding-left: 10px;"><img src="https://static.wixstatic.com/media/51972b_e40282317e6b42ee83ceb2135f39f4d2~mv2.png/v1/fill/w_386,h_112,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/สั่งซื้อออนไลน์.png" alt=""></a>
+            <a href="https://line.me/ti/p/eAmTWa8mkc" style="padding-right: 10px; padding-left: 10px;"><img src="https://static.wixstatic.com/media/51972b_e40282317e6b42ee83ceb2135f39f4d2~mv2.png/v1/fill/w_386,h_112,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/สั่งซื้อออนไลน์.png" alt=""></a>
             <a href="" style="padding-right: 10px; padding-left: 10px;"><img src="https://static.wixstatic.com/media/51972b_82ce5a0a5fda4e5f98c00b619a0099e8~mv2.png/v1/crop/x_13,y_0,w_806,h_226/fill/w_368,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LASADA.png" alt=""></a>
             <a href="" style="padding-right: 10px; padding-left: 10px;"><img src="https://static.wixstatic.com/media/51972b_c301e0b355324c81bfd594c06f59e506~mv2.png/v1/fill/w_330,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Shoppee.png" alt=""></a>        
             <div>
-                <a href="" style="padding-right: 10px; padding-left: 10px;"><img src="https://v4i.rweb-images.com/www.sc-broker.com/images/editor/line-click-1.gif" alt=""></a>
+                <a href="https://line.me/ti/p/eAmTWa8mkc" style="padding-right: 10px; padding-left: 10px;"><img src="https://v4i.rweb-images.com/www.sc-broker.com/images/editor/line-click-1.gif" alt=""></a>
             </div>
     </div>    
 

@@ -111,8 +111,8 @@
             <img src="how1pic/how1.5.png" alt="รูปพิมพ์ลายคอนกรีต" onclick="openModal();currentSlide(1)" class="thumbnail">
         </div>
         <div class="contact">
-            <p>ต้องการสอบถามเกี่ยวกับงานคอนกรีตพิมพ์ลาย ปรึกษา พูดคุยกับช่างหมู สามารถติดต่ได้ช่องทาง</p>
-            <p>ไลน์ไอดี : <a href="https://lin.ee/SKcx5b8">@Dr.Vorapong Noom</a></p>
+            <p>ต้องการสอบถามเกี่ยวกับงานคอนกรีตพิมพ์ลาย ปรึกษา พูดคุยกับช่างหมู สามารถติดต่อได้ช่องทาง</p>
+            <p>ไลน์ไอดี : <a href="https://lin.ee/SKcx5b8">Dr.Vorapong Noom</a></p>
             <p>โทร : 096-893-5544</p>
         </div>
     </div>
