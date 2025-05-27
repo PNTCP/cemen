@@ -17,11 +17,16 @@
             max-width: 1200px;
             margin: auto;
             padding: 40px 20px;
+            overflow-x: hidden; /* Prevent horizontal overflow */
         }
-        .section img{
-            width: 50%;
+        .section img {
+            display: block;
+            max-width: 100%;
             height: auto;
             margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
         }
         .highlight {
             color: red;
@@ -86,6 +91,76 @@
             font-size: 20px;
             color: #333;
         }
+        /*for MB*/
+        @media (max-width: 900px) { 
+    .container {
+        padding: 20px 5vw;
+    }
+    .section {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section img {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .big-text {
+        font-size: 32px;
+    }
+    .sub-text {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .content {
+        font-size: 15px;
+    }
+    .step-gallery {
+        margin: 20px 0;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 10px;
+    }
+    .step-item img {
+        height: 120px;
+    }
+    .step-item p {
+        font-size: 15px;
+    }
+    a[href="index.php"] {
+        margin-left: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+    a[href="index.php"] button {
+        width: 100%;
+        font-size: 18px;
+        padding: 10px 0;
+    }
+}
+@media (max-width: 600px) { 
+    .container {
+        padding: 10px 2vw;
+    }
+    .big-text {
+        font-size: 22px;
+    }
+    .sub-text {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 15px;
+    }
+    .content {
+        font-size: 13px;
+    }
+    .step-item img {
+        height: 80px;
+    }
+    .step-item p {
+        font-size: 12px;
+    }
+}
     </style>
 </head>
 <body>
@@ -264,5 +339,9 @@
 </div>
 </div>
 <a href="index.php" style="margin-left: 41%;"><button style="background-color: red; color: white; border: solid white; padding: 10px; font-size: 20px; font-weight: bold;">กลับหน้าหลัก</button></a>
+<style>
+    /*for MB*/
+    
+</style>
 </body>
 </html>
