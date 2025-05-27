@@ -263,6 +263,6 @@
     </div>
 </div>
 </div>
-<a href="" style="margin-left: 41%;"><button style="background-color: red; color: white; border: solid white; padding: 10px; font-size: 20px; font-weight: bold;">กลับหน้าหลัก</button></a>
+<a href="index.php" style="margin-left: 41%;"><button style="background-color: red; color: white; border: solid white; padding: 10px; font-size: 20px; font-weight: bold;">กลับหน้าหลัก</button></a>
 </body>
 </html>
