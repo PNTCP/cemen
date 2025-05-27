@@ -29,7 +29,7 @@
 
 <!-- ชุดปุ่มเมนูล่างจอของทรศ -->
  <nav class="mobile-bottom-nav">
-    <a href="#" class="mobile-bottom-item" title="ติดต่อเรา">
+    <a href="contact.php" class="mobile-bottom-item" title="ติดต่อเรา">
         <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="ติดต่อเรา" class="mobile-bottom-icon">
         <span class="mobile-bottom-label">ติดต่อเรา</span>
     </a>
@@ -355,7 +355,7 @@
         <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
         <div class="menu-bar-item"><a href="how6.php">คลังความรู้</a></div>
-        <div class="menu-bar-item"><a href="#">ติดต่อเรา</a></div>
+        <div class="menu-bar-item"><a href="contact.php">ติดต่อเรา</a></div>
     </div>
     <!-- Mobile  Menu -->
     <nav class="slide-menu-bar" id="slideMenuBar" style="font-family: Kanit;">
