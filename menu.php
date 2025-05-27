@@ -350,11 +350,11 @@
     <div class="menu-bar" style="font-family: Kanit;">
         <div class="menu-bar-item"><a href="index.php">หน้าแรก</a></div>
         <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
-        <div class="menu-bar-item"><a href="how1.php">คอนกรีตพิมพ์ลาย</a></div>
-        <div class="menu-bar-item"><a href="how2.php">คอนกรีตลอกลาย</a></div>
+        <div class="menu-bar-item"><a href="menu1.php">คอนกรีตพิมพ์ลาย</a></div>
+        <div class="menu-bar-item"><a href="#">คอนกรีตลอกลาย</a></div>
         <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
-        <div class="menu-bar-item"><a href="how6.php">คลังความรู้</a></div>
+        <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
         <div class="menu-bar-item"><a href="contact.php">ติดต่อเรา</a></div>
     </div>
     <!-- Mobile  Menu -->
