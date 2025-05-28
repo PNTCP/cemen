@@ -160,6 +160,24 @@
     .step-item p {
         font-size: 12px;
     }
+    a[href="index.php"] {
+        margin-left: 0 !important;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    a[href="index.php"] button {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px 0;
+    }
+}
+.responsive-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
     </style>
 </head>
@@ -189,7 +207,7 @@
             </p>
         </div>
     </div>
-    <img src="menu1pic/2.png" alt="">
+    <img src="menu1pic/2.png" alt="" class="responsive-img">
 </div>
 <div class="step-gallery">
     <div class="step-item">

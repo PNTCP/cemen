@@ -351,7 +351,7 @@
         <div class="menu-bar-item"><a href="index.php">หน้าแรก</a></div>
         <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
         <div class="menu-bar-item"><a href="menu1.php">คอนกรีตพิมพ์ลาย</a></div>
-        <div class="menu-bar-item"><a href="#">คอนกรีตลอกลาย</a></div>
+        <div class="menu-bar-item"><a href="menu2.php">คอนกรีตลอกลาย</a></div>
         <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
         <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
@@ -361,8 +361,8 @@
     <nav class="slide-menu-bar" id="slideMenuBar" style="font-family: Kanit;">
         <div class="menu-bar-item"><a href="index.php">หน้าแรก</a></div>
         <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
-        <div class="menu-bar-item"><a href="#">คอนกรีตพิมพ์ลาย</a></div>
-        <div class="menu-bar-item"><a href="#">คอนกรีตลอกลาย</a></div>
+        <div class="menu-bar-item"><a href="menu1.php">คอนกรีตพิมพ์ลาย</a></div>
+        <div class="menu-bar-item"><a href="menu2.php">คอนกรีตลอกลาย</a></div>
         <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
         <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>

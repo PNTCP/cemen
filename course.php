@@ -13,22 +13,24 @@
 
     <style>
         .border-main {
-            display: inline block ;
+            display: inline-block;
             justify-content: space-around;
             border: 2px solid black;
             border-radius: 50px;
             padding: 20px;
-            /* margin: 20px; */
             text-align: center;
-            font-size: 35px;
-            margin-left: 150px;
-            margin-right: 150px;
+            font-size: 2.2rem;
+            margin-left: 10vw;
+            margin-right: 10vw;
             margin-top: 50px;
+            width: auto;
+            max-width: 90vw;
         }
         .sec-text {
-            font-size: 20px;
-            margin-top: 50px;
-            margin-left: 155px ;
+            font-size: 1.1rem;
+            margin-top: 40px;
+            margin-left: 10vw;
+            margin-right: 10vw;
         }
         .sec-text p {
             color: grey;
@@ -37,32 +39,35 @@
         }
         .border-contact {
             display: flex;
+            flex-wrap: wrap;
             align-items: flex-start;
             justify-content: flex-start;
             border: 1px solid gray;
-            font-size: 20px;
-            margin-left: 150px;
-            margin-right: 150px;
-            margin-top: 50px;
+            font-size: 1.1rem;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            margin-top: 40px;
             gap: 30px;
             padding: 0px;
-            position: relative; /* เพิ่มเพื่อให้ลูกใช้ position absolute ได้ */
+            position: relative;
+            max-width: 90vw;
         }
-
+        .border-contact img {
+            max-width: 90vw;
+            width: 300px;
+            height: auto;
+        }
         .contact-text {
             display: flex;
             flex-direction: column;
             gap: 10px;
         }
-        
         .contact-text p {
-            color: black;
-            margin: 0;
-            font-size: 20px;
-            margin-top: 10px;
             color: grey;
+            margin: 0;
+            font-size: 1.1rem;
+            margin-top: 10px;
         }
-
         .contact-button {
             position: absolute;
             bottom: 20px;
@@ -71,20 +76,142 @@
             flex-direction: column;
             align-items: flex-end;
             gap: 5px;
-            padding-top: 50px;  
+            padding-top: 50px;
         }
-
         .contact-button a {
             color: blue;
             text-decoration: none;
-            font-size: 16px;
-            border: 1px ;
+            font-size: 1rem;
+            border: 1px;
             padding: 8px;
             border-radius: 20px;
             margin-top: -20px;
         }
+        .border-exam {
+            text-align: center;
+            font-size: 2.2rem;
+        }
+        .video {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            max-width: 100%;
+            height: auto;
+        }
+        #scrollBtn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 1000;
+            font-size: 20px;
+            border: none;
+            outline: none;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            padding: 12px 16px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(50px);
+            transition: all 0.4s ease;
+        }
+        #scrollBtn.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        #scrollBtn:hover {
+            background-color: #0056b3;
+        }
 
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .border-main,
+            .border-contact,
+            .sec-text {
+                margin-left: 5vw;
+                margin-right: 5vw;
+                font-size: 1rem;
+            }
+            .border-main,
+            .border-exam {
+                font-size: 1.3rem;
+                padding: 10px;
+            }
+            .border-contact {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 10px;
+                padding: 10px;
+            }
+            .border-contact img {
+                width: 100%;
+                max-width: 100%;
+                margin-bottom: 10px;
+            }
+            .contact-button {
+                position: static;
+                align-items: stretch;
+                padding-top: 10px;
+            }
+            .video {
+                width: 100%;
+                height: auto;
+                max-width: 100vw;
+            }
+            #scrollBtn {
+                bottom: 20px;
+                right: 20px;
+                font-size: 18px;
+                padding: 10px 12px;
+            }
+        }
+        @media (max-width: 480px) {
+            .border-main,
+            .border-exam {
+                font-size: 1rem;
+                margin-left: 2vw;
+                margin-right: 2vw;
+                padding: 8px;
+            }
+            .sec-text {
+                font-size: 0.95rem;
+                margin-left: 2vw;
+                margin-right: 2vw;
+            }
+            .border-contact {
+                font-size: 0.95rem;
+                margin-left: 2vw;
+                margin-right: 2vw;
+            }
+            .contact-button a {
+                font-size: 0.95rem;
+                padding: 6px;
+            }
+        }
 
+        
+
+        .video-responsive {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            max-width: 100%;
+        }
+        .video-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 
 <div class="border-contact">
@@ -157,24 +284,29 @@
     <style>
         .border-exam {
             text-align: center;
-            font-size: 35px;
+            font-size: 2.2rem;
         }
         .video {
             display: block;
             margin-left: auto;
             margin-right: auto;
             margin-top: 30px;
+            max-width: 100%;
+            height: auto;
         }
     </style>
     
-    
-    <iframe width="560" height="315" class="video"
-        src="https://www.youtube.com/embed/pflsQxfCxX4?si=lQXxax9HK0V_Ob34" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
+    <!-- Responsive video wrapper -->
+<div class="video-responsive">
+    <iframe
+        src="https://www.youtube.com/embed/pflsQxfCxX4?si=lQXxax9HK0V_Ob34"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        class="video"
+    ></iframe>
+</div>
 
 
 
