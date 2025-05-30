@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -352,7 +353,7 @@
         <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
         <div class="menu-bar-item"><a href="menu1.php">คอนกรีตพิมพ์ลาย</a></div>
         <div class="menu-bar-item"><a href="menu2.php">คอนกรีตลอกลาย</a></div>
-        <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
+        <div class="menu-bar-item"><a href="menu3.php">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
         <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
         <div class="menu-bar-item"><a href="contact.php">ติดต่อเรา</a></div>
@@ -363,7 +364,7 @@
         <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
         <div class="menu-bar-item"><a href="menu1.php">คอนกรีตพิมพ์ลาย</a></div>
         <div class="menu-bar-item"><a href="menu2.php">คอนกรีตลอกลาย</a></div>
-        <div class="menu-bar-item"><a href="#">คอนกรีตขัดเงา</a></div>
+        <div class="menu-bar-item"><a href="menu3.php">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
         <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
         <div class="menu-bar-item"><a href="Contact.php">ติดต่อเรา</a></div>
