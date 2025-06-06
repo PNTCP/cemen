@@ -175,11 +175,11 @@
     <div style="display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; align-items: flex-start;">
       <!-- ภาพ 1 -->
       <div style="flex: 1 1 1200px; min-width: 700px; max-width: 1600px; background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.10); padding: 48px;">
-        <div style="display: flex; align-items: flex-start; gap: 64px;">
+        <div style="display: flex; align-items: flex-start; gap: 64px; margin-left: -35px">
           <img src="https://static.wixstatic.com/media/51972b_6a1a67863afa49869016d4f0f148b629~mv2.png/v1/fill/w_532,h_307,al_c,q_85,enc_avif,quality_auto/%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B8%82%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%87%E0%B8%B2-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%B9%E0%B8%99.png" 
             alt="เครื่องขัดปูน" 
             style="width:600px; max-width:100%; border-radius:14px; margin-bottom:0;">
-          <div style="text-align:left; flex:1;">
+          <div style="text-align:left; flex:1; margin-left: -35px;">
             <div style="color:#ff0000; font-weight:700; margin-bottom:32px; font-size:1.7rem; margin-top:12px; line-height:1.3; white-space:nowrap;">
               เมื่อซื้อเครื่อง แถมใบขัด ฟรี !!!
             </div>
@@ -307,7 +307,7 @@
 </div>
 <!-- ต่อท้ายกล่อง "พื้นที่เหมาะสมสำหรับคอนกรีตขัดเงา" -->
 <div style="width:100%; display:flex; justify-content:flex-start;">
-  <div style="color:#0d2676; font-size:1.18rem; font-weight:600; margin-left:150px; max-width:1500px; line-height:1.7; text-align:left; word-break:break-word;" class="place-desc-mobile-fix">
+  <div style="color:#0d2676; font-size:1.18rem; font-weight:600; margin-left:150px; margin-top:-35px; max-width:1500px; line-height:1.7; text-align:left; word-break:break-word;" class="place-desc-mobile-fix">
     โรงงานอุตสาหกรรม โกดังไซโล ที่จัดเก็บพืชทางการเกษตร โรงกลั่นน้ำมัน ห้างสรรพสินค้า ศูนย์แสดงสินค้า<br>
     โชว์รูมรถ ร้านอาหาร โรงพยาบาล สนามบิน พิพิธภัณฑ์ สนามกีฬา และ Warehouse โกดังสินค้า ฯลฯ
   </div>
