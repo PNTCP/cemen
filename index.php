@@ -435,7 +435,7 @@
       สินค้าของเรา
     </div>
     <div style="width:170px; height:2px; background:#1976d2; opacity:0.18; margin:0 auto 32px auto;"></div>
-    <a href="#" style="display:inline-block; background:#0d6efd; color:#fff; font-size:1.35rem; font-weight:600; padding:18px 44px; border-radius:32px; box-shadow:0 8px 32px rgba(13,110,253,0.13); text-decoration:none; transition:background 0.18s;">
+    <a href="product.php" style="display:inline-block; background:#0d6efd; color:#fff; font-size:1.35rem; font-weight:600; padding:18px 44px; border-radius:32px; box-shadow:0 8px 32px rgba(13,110,253,0.13); text-decoration:none; transition:background 0.18s;">
       ดูสินค้าทั้งหมด
     </a>
   </div>
