@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -349,25 +348,25 @@
     <div class="menu-overlay" id="menuOverlay"></div>
     <!-- Desktop Menu Bar -->
     <div class="menu-bar" style="font-family: Kanit;">
-        <div class="menu-bar-item"><a href="index.php">หน้าแรก</a></div>
-        <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
-        <div class="menu-bar-item"><a href="menu1.php">คอนกรีตพิมพ์ลาย</a></div>
-        <div class="menu-bar-item"><a href="menu2.php">คอนกรีตลอกลาย</a></div>
-        <div class="menu-bar-item"><a href="menu3.php">คอนกรีตขัดเงา</a></div>
-        <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
-        <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
-        <div class="menu-bar-item"><a href="contact.php">ติดต่อเรา</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/index.php">หน้าแรก</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/course.php">คอร์สอบรม</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/menu1.php">คอนกรีตพิมพ์ลาย</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/menu2.php">คอนกรีตลอกลาย</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/menu3.php">คอนกรีตขัดเงา</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/Q&A.php">ถามตอบ</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/info.php">คลังความรู้</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/Contact.php">ติดต่อเรา</a></div>
     </div>
     <!-- Mobile  Menu -->
     <nav class="slide-menu-bar" id="slideMenuBar" style="font-family: Kanit;">
-        <div class="menu-bar-item"><a href="index.php">หน้าแรก</a></div>
-        <div class="menu-bar-item"><a href="course.php">คอร์สอบรม</a></div>
-        <div class="menu-bar-item"><a href="menu1.php">คอนกรีตพิมพ์ลาย</a></div>
-        <div class="menu-bar-item"><a href="menu2.php">คอนกรีตลอกลาย</a></div>
-        <div class="menu-bar-item"><a href="menu3.php">คอนกรีตขัดเงา</a></div>
-        <div class="menu-bar-item"><a href="#">ถามตอบ</a></div>
-        <div class="menu-bar-item"><a href="#">คลังความรู้</a></div>
-        <div class="menu-bar-item"><a href="Contact.php">ติดต่อเรา</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/index.php">หน้าแรก</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/course.php">คอร์สอบรม</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/menu1.php">คอนกรีตพิมพ์ลาย</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/menu2.php">คอนกรีตลอกลาย</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/menu3.php">คอนกรีตขัดเงา</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/Q&A.php">ถามตอบ</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/info.php">คลังความรู้</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/Contact.php">ติดต่อเรา</a></div>
     </nav>
     <script>
         const mainHamburgerBtn = document.getElementById('mainHamburgerBtn');
