@@ -39,6 +39,11 @@
                 <i class="fas fa-calendar-alt"></i> 06/06/2025
             </div>
         </a>
+        <a class="card" href="info/info4.php">
+            <img src="https://static.wixstatic.com/media/51972b_2c8d0f1e3f5c4b9d8a6e7c5f0b3f1c2b~mv2.jpg/v1/fill/w_315,h_236,fp_0.50_0.50,q_90,enc_avif,quality_auto/51972b_2c8d0f1e3f5c4b9d8a6e7c5f0b3f1c2b~mv2.jpg" alt="ภาพ 4">
+            <div class="card-content">
+                <div class="card-title
+">พื้นคอนกรีตพิมพ์ลาย : ราคา และข้อมูลที่ควรรู้</div>
         
         
     </div>
