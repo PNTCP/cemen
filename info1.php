@@ -13,9 +13,63 @@
   <h1 style="color: red;">แหล่งรวมข้อมูลการตกแต่งคอนกรีตแนวใหม่</h1>
   <hr style="margin-bottom: 40px; color: gray;">
   <div class="card-container">
-<a href="">
+<a href="/cemen1/info/info1.php">
   <div class="card">
-    <img src="menu1pic/1.png" alt="บทความ 1">
+    <img src="how1pic/how1.1.png" alt="บทความ 1">
+    <div class="card-body">
+      <div class="card-title">แม่พิมพ์ลายคอนกรีตลาย Random ทำไมถึงได้รับความนิยม?</div>
+      <div class="card-text">ในปัจจุบัน แม่พิมพ์ลายคอนกรีต ได้รับความนิยม...</div>
+    </div>
+  </div>
+</a>
+<a href="/cemen1/info/info2.php">
+  <div class="card">
+    <img src="how2pic/how2.1.png" alt="บทความ 2">
+    <div class="card-body">
+      <div class="card-title">พื้นคอนกรีตพิมพ์ลาย ใช้เวลาทำกี่วัน ??</div>
+      <div class="card-text">ระยะเวลา ราคา ในการติดตั้งพื้น</div>
+    </div>
+  </div>
+</a>
+<a href="/cemen1/info/info3.php">
+  <div class="card">
+    <img src="how1pic/how1.5.png" alt="บทความ 3">
+    <div class="card-body">
+      <div class="card-title">พื้นคอนกรีตพิมพ์ลาย มีกี่แบบ ??</div>
+      <div class="card-text">ไอเดีย พื้นคอนกรีตพิมพ์ลาย 8 ลาย ยอดนิยมสูงสุดตลอดปี 2025</div>
+    </div>
+  </div>
+</a>
+<a href="/cemen1/info/info4.php">
+  <div class="card">
+    <img src="info/infopic/info4pic/info4.1.avif" alt="บทความ 4">
+    <div class="card-body">
+      <div class="card-title">คอนกรีตพิมพ์ลาย : ราคา และ ข้อมูลที่คุณควรรู้</div>
+      <div class="card-text">คอนกรีตพิมพ์ลาย เป็นวัสดุที่ได้รับความนิยม...</div>
+    </div>
+  </div>
+</a>
+<a href="/cemen1/info/info5.php">
+  <div class="card">
+    <img src="info/infopic/info5pic/info5.1.avif" alt="บทความ 5">
+    <div class="card-body">
+      <div class="card-title">คอนกรีตพิมพ์ลาย ไอเดียการตกแต่งพื้นเพื่อความสวยงามและทนทาน</div>
+      <div class="card-text">ในยุคที่การแต่งบ้านเริ่มได้รับความนิยม...</div>
+    </div>
+  </div>
+</a>
+ <a href="/cemen1/how6.php">
+  <div class="card">
+    <img src="how6pic/6.1.png" alt="บทความ 6">
+    <div class="card-body">
+      <div class="card-title">5 อาชีพช่างตกแต่งผิวปูน</div>
+      <div class="card-text">ใช้เทคนิควิธีใช้ Color Seasons สีซีเมนต์ มาสร้างอาชีพ ต่อยอดสร้างงานตกแต่งผิวปูน โดยการทำงานตัวหลักที่ใช้นำเป็นสี...</div>
+    </div>
+  </div>
+</a>
+<!--<a href="">
+  <div class="card">
+    <img src="menu1pic/1.png" alt="บทความ 7">
     <div class="card-body">
       <div class="card-title">แม่พิมพ์ลายคอนกรีตลาย Random ทำไมถึงได้รับความนิยม?</div>
       <div class="card-text">ในปัจจุบัน แม่พิมพ์ลายคอนกรีต ได้รับความนิยม...</div>
@@ -66,69 +120,15 @@
       <div class="card-text">ในปัจจุบัน แม่พิมพ์ลายคอนกรีต ได้รับความนิยม...</div>
     </div>
   </div>
-</a>
-<a href="">
-  <div class="card">
-    <img src="menu1pic/1.png" alt="บทความ 1">
-    <div class="card-body">
-      <div class="card-title">แม่พิมพ์ลายคอนกรีตลาย Random ทำไมถึงได้รับความนิยม?</div>
-      <div class="card-text">ในปัจจุบัน แม่พิมพ์ลายคอนกรีต ได้รับความนิยม...</div>
-    </div>
-  </div>
-</a>
-<a href="">
-  <div class="card">
-    <img src="menu1pic/1.png" alt="บทความ 1">
-    <div class="card-body">
-      <div class="card-title">แม่พิมพ์ลายคอนกรีตลาย Random ทำไมถึงได้รับความนิยม?</div>
-      <div class="card-text">ในปัจจุบัน แม่พิมพ์ลายคอนกรีต ได้รับความนิยม...</div>
-    </div>
-  </div>
-</a>
-<a href="">
-  <div class="card">
-    <img src="menu1pic/1.png" alt="บทความ 1">
-    <div class="card-body">
-      <div class="card-title">แม่พิมพ์ลายคอนกรีตลาย Random ทำไมถึงได้รับความนิยม?</div>
-      <div class="card-text">ในปัจจุบัน แม่พิมพ์ลายคอนกรีต ได้รับความนิยม...</div>
-    </div>
-  </div>
-</a>
-<a href="">
-  <div class="card">
-    <img src="menu1pic/1.png" alt="บทความ 1">
-    <div class="card-body">
-      <div class="card-title">แม่พิมพ์ลายคอนกรีตลาย Random ทำไมถึงได้รับความนิยม?</div>
-      <div class="card-text">ในปัจจุบัน แม่พิมพ์ลายคอนกรีต ได้รับความนิยม...</div>
-    </div>
-  </div>
-</a>
-<a href="">
-  <div class="card">
-    <img src="menu1pic/1.png" alt="บทความ 1">
-    <div class="card-body">
-      <div class="card-title">แม่พิมพ์ลายคอนกรีตลาย Random ทำไมถึงได้รับความนิยม?</div>
-      <div class="card-text">ในปัจจุบัน แม่พิมพ์ลายคอนกรีต ได้รับความนิยม...</div>
-    </div>
-  </div>
-</a>
-<a href="">
-  <div class="card">
-    <img src="menu1pic/1.png" alt="บทความ 1">
-    <div class="card-body">
-      <div class="card-title">แม่พิมพ์ลายคอนกรีตลาย Random ทำไมถึงได้รับความนิยม?</div>
-      <div class="card-text">ในปัจจุบัน แม่พิมพ์ลายคอนกรีต ได้รับความนิยม...</div>
-    </div>
-  </div>
-</a>
-<div class="bar-card">
+</a> -->
+<!-- <div class="bar-card">
   <a href="#" id="prev">&lt;</a>
   <a href="info1.php" class="page" data-page="1" style="color: red;">1</a>
   <a href="info2.php" class="page" data-page="2">2</a>
   <a href="info3.php" class="page" data-page="3">3</a>
   <a href="info4.php" class="page" data-page="4">4</a>
   <a href="#" id="next">&gt;</a>
-</div>
+</div> -->
 
 <script>
   const currentFile = window.location.pathname.split("/").pop(); 

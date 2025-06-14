@@ -207,7 +207,7 @@
     <div class="border-main">Contact us</div>
     <div class="sec-text">
         <p><span class="sec-icon">📞</span> Tel : 096-893-5544</p>
-        <p><span class="sec-icon">📘</span> FB : concretedecorchonburi</p>
+        
         <p><span class="sec-icon">📧</span> E-mail : Noom.vorapong99@gmail.com</p>
         <p>
         <span class="sec-icon">💬</span>

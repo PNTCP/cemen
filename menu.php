@@ -354,7 +354,7 @@
         <div class="menu-bar-item"><a href="/cemen1/menu2.php">คอนกรีตลอกลาย</a></div>
         <div class="menu-bar-item"><a href="/cemen1/menu3.php">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="/cemen1/Q&A.php">ถามตอบ</a></div>
-        <div class="menu-bar-item"><a href="/cemen1/info.php">คลังความรู้</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/info1.php">คลังความรู้</a></div>
         <div class="menu-bar-item"><a href="/cemen1/Contact.php">ติดต่อเรา</a></div>
     </div>
     <!-- Mobile  Menu -->
@@ -365,7 +365,7 @@
         <div class="menu-bar-item"><a href="/cemen1/menu2.php">คอนกรีตลอกลาย</a></div>
         <div class="menu-bar-item"><a href="/cemen1/menu3.php">คอนกรีตขัดเงา</a></div>
         <div class="menu-bar-item"><a href="/cemen1/Q&A.php">ถามตอบ</a></div>
-        <div class="menu-bar-item"><a href="/cemen1/info.php">คลังความรู้</a></div>
+        <div class="menu-bar-item"><a href="/cemen1/info1s.php">คลังความรู้</a></div>
         <div class="menu-bar-item"><a href="/cemen1/Contact.php">ติดต่อเรา</a></div>
     </nav>
     <script>

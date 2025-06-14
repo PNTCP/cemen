@@ -399,7 +399,7 @@
       <div style="font-family: 'Kanit', 'Prompt', sans-serif; font-size: 2.2rem; font-weight: 1000; line-height: 1.15; margin-bottom: 36px; text-align: right;"
      class="why-choose-text">
         ทีมงานมืออาชีพ ด้วย<br>
-        ประสบการณ์มากกว่า 10 ปี<br>
+        ประสบการณ์มากกว่า 15 ปี<br>
         ที่ได้รับความไว้ วางใจให้<br>
         บริการรับเหมา งานคอนกรีต
       </div>
@@ -499,7 +499,7 @@
       <div class="product-desc">
         คุณสมบัติกันน้ำได้ 100% การยึดเกาะที่ดีเยี่ยมกับคอนกรีตและเหล็ก รับน้ำหนัก ทนแรงกระแทก ยืดตัวมากกว่า 500%
       </div>
-      <a href="#product/Product003.php" class="product-btn">ดูรายละเอียด</a>
+      <a href="product/Product003.php" class="product-btn">ดูรายละเอียด</a>
     </div>
   </div>
   <!-- Brand Slider Section -->
